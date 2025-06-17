@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+body { 
+    font-family: 'poppins', sans-serif;
+}
+th {
+    background: linear-gradient(900deg, #2f00ff, #00ff73);
+    color: #ffffff;
+}
+tr:hover td {
+    background: #d1f3ce;
+    transition: background 0.3s;
+}
+able {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 90%;
+    margin: 30px auto;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
